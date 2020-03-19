@@ -1,9 +1,9 @@
-
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
-// Variables
-@import "variables";
-
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~sb-admin-2/dist/css/sb-admin-2.css";
+@import "~sb-admin-2/vendor/bootstrap-social/bootstrap-social.css";
+@import "~sb-admin-2/vendor/font-awesome/scss/font-awesome";
+@import "~sb-admin-2/vendor/metisMenu/metisMenu.css";
+@import "~sb-admin-2/vendor/morrisjs/morris.css";

@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get("/", "HelloController@home");
+Route::get("/temperature", "TemperatureController@temp")->name("temperature");
+Route::get("/orders", "OrderController@orders")->name("orders");
+Route::get("/orders/edit/{id}", "OrderController@orderEdit")->name("orders-edit");
+Route::post("/orders/save/{id}", "OrderController@orderSave")->name("orders-save");
+Route::get("/products", "ProductsController@products")->name("products");
+Route::post('/products/edit/{id}', "ProductsController@editPrice");
