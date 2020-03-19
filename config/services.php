@@ -35,4 +35,11 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'yandexWeather' => [
+        'apiKey' => env('YANDEX_WEATHER_API_KEY'),
+        'cities' => [
+            'Bryansk' => [53.243562, 34.363407],
+        ]
+    ]
+
 ];
